@@ -1,0 +1,67 @@
+body{
+	margin:0;
+}
+
+.container{
+	background-color:#2EB82E;
+	height:150px;
+	border-bottom:5px double black;
+}
+
+.nav{
+
+}
+
+.nav ul{
+	margin:0;
+	padding:0;
+}
+
+.nav ul li{
+	list-style:none;
+}
+
+.nav ul li a{
+	text-decoration:none;
+	float:left;
+	display:block;
+	color:#FFFFC2;
+	font-family:"Lobster";
+	font-size:40px;
+	position:relative;
+	top:40px;
+	padding-bottom:55px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.nav ul li a:hover{
+	color:white;
+	border-bottom:6px solid black;
+}
+
+.farLeft{
+	margin-left:13%;
+}
+
+.portfolio{
+	width:500px;
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+	position:relative;
+	top:150px;
+	clear:both;
+}
+
+.responsive{
+	padding:0;
+	margin:0;
+	width:250px;
+	float:left;
+	display:block;
+}
+
+.portfolio .JS-square img:hover{
+	background-image:portfolioPICtwo;
+}
