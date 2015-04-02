@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+		<meta name="viewport" content="width=device-wdith, initial-scale=1"/>
+		<title>Navigation Bar Template</title>
+		<!--Navbar Style Sheet-->
+		<link rel="stylesheet" href="NAVBARstyle.css"/>
+		<!--Web Fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Lobster|Lobster+Two' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="nav">
+				<ul>
+					<li class="farLeft"><a href="#">Home</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="portfolio">
+				<div class="JS-square">
+					<img class="responsive" src='portfolioPICone.png' width='250' height='250' onmouseover="this.src='portfolioPICtwo.png';" onmouseout="this.src='portfolioPICone.png';"/>
+					<img class="responsive" src='portfolioPICone.png' width='250' height='250' onmouseover="this.src='portfolioPICtwo.png';" onmouseout="this.src='portfolioPICone.png';"/>
+					<img class="responsive" src='portfolioPICone.png' width='250' height='250' onmouseover="this.src='portfolioPICtwo.png';" onmouseout="this.src='portfolioPICone.png';"/>
+					<img class="responsive" src='portfolioPICone.png' width='250' height='250' onmouseover="this.src='portfolioPICtwo.png';" onmouseout="this.src='portfolioPICone.png';"/>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+</html>
