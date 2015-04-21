@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Centurion Studio LLC</title>
+	<meta name="author" content="James Roman"/>
+	<!--Style-->
+	<link rel="stylesheet" href="mainStyle.css"/>
+	
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700,700italic,900,400,900italic,400italic' rel='stylesheet' type='text/css'>
+	<!--=====================================-->
+  </head>
+  
+  <body class="menu">
+  
+	<header>
+		<a class="menu-toggle" href="#menu"><img id="menu-icon" src="http://f.cl.ly/items/1U2c3b1215383h3a2T2r/icon-menu.svg"/></a>
+		<nav class="menu-side">
+			<ul>
+				<li><a id="facebook" href="#">Facebook</a></li>
+				<li><a id="twitter" href="#">Twitter</a></li>
+				<li><a id="linkedin" href="#">LinkedIn</a></li>
+				<li><a id="github" href="#">Github</a></li>
+				<li><a id="centurion" href="#">Centurion</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+	
+		<div class="title">
+			<h1>J<u>ames Roman</u></h1>
+			<h4>Design | Branding | Development</h4>
+		</div>
+		
+		<div class="portfolio-container">
+			<div class="portfolio">
+				<img class="port-pic" src="images/placeholder.png" alt="portfolio"/>
+				<img class="port-pic" src="images/placeholder.png" alt="portfolio"/>
+				<img class="port-pic" src="images/placeholder.png" alt="portfolio"/>
+				<img class="port-pic bottom-row" src="images/placeholder.png" alt="portfolio"/>
+				<img class="port-pic bottom-row" src="images/placeholder.png" alt="portfolio"/>
+				<img class="port-pic bottom-row" src="images/placeholder.png" alt="portfolio"/>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="partner">
+				<h2>Kieran Maye</h2>
+				<h4>Graphics | Branding</h4>
+				<p>Check out my Partner</p>
+				<a href="#">BroskeKieranSan | Github </a>
+			</div>
+			<div class="trademark">
+				Trademark 2015 James Roman
+			</div>
+			<div class="copyright">
+				<span id="copy">Copyright &copy; 2014 James Roman</span>
+			</div>
+		</footer>
+		
+	</main>
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="mainJavascript.js"></script>
+  </body>
+</html>
+
+
+CSS BEGINS HERE
+
+body{
+	padding:0;
+	margin:0;
+}
+
+header{
+	float:left;
+	display:inline-block;
+	padding:20px 20px;
+}
+
+.menu{
+	overflow-x:hidden;
+	position:relative;
+	left:0;
+}
+
+.menu-open{
+	left:250px;
+}
+
+.menu-open .menu-side{
+	left:0;
+}
+
+.menu-side,
+.menu {
+	-webkit-transition: left 0.5s ease;
+	-moz-transition: left 0.5s ease;
+	transition: left 0.5s ease;
+}
+
+.menu-side{
+	  background: -webkit-linear-gradient(#00A37A, #66C8AF); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(#00A37A, #66C8AF); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(#00A37A, #66C8AF); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(#00A37A, #66C8AF); /* Standard syntax */
+	border-right:1px solid black;
+	color:white;
+	position:fixed;
+	top:0;
+	left:-240px;
+	width:229px;
+	height:100%;
+	padding:10px;
+	padding-left:0;
+}
+
+.menu-side ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.menu-side ul li{
+	padding-top:20%;
+	padding-bottom:20%;
+}
+
+.menu-side ul li a{
+	text-decoration:none;
+	font-family:"Playfair Display SC";
+	font-size:150%;
+	padding-top:20%;
+	padding-bottom:20%;
+	color:black;
+}
+
+.menu-side ul li a:hover {
+	color:white;
+	background: -webkit-linear-gradient(left,rgba(255,0,0,0.1),rgba(0,0,0,0.7)); /*Safari 5.1-6*/
+		background: -o-linear-gradient(right,rgba(255,0,0,0.1),rgba(0,0,0,0.7)); /*Opera 11.1-12*/
+		background: -moz-linear-gradient(right,rgba(255,0,0,0.1),rgba(0,0,0,0.7)); /*Fx 3.6-15*/
+		background: linear-gradient(to right, rgba(255,0,0,0.1), rgba(0,0,0,0.7)); /*Standard*/
+}
+
+#facebook{
+	padding-right:66px;
+	padding-left:50px;
+}
+#twitter{
+	padding-right:85px;
+	padding-left:50px;
+}
+#linkedin{
+	padding-right:79px;
+	padding-left:50px;
+}
+#github{
+	padding-right:101px;
+	padding-left:50px;
+}
+#centurion{
+	padding-right:54px;
+	padding-left:50px;
+}
+
+.menu-toggle{
+	text-decoration:none;
+}
+/*===================================================*/
+
+.title{
+	border-bottom:2px solid black;
+	height:135px;
+}
+
+.title h1{
+	font-family:"Playfair Display SC";
+	font-size:250%;
+	padding:0;
+	margin:0;
+	position:relative;
+	left:36%;
+	top:1.0em;
+}
+.title h4{
+	font-family:"Playfair Display SC";
+	font-size:75%;
+	position:relative;
+	left:42.5%;
+	top:35px;
+}
+
+/*===================================================*/
+
+.portfolio-container{
+	width:80%;
+	margin:auto;
+}
+
+.portfolio{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.portfolio img{
+	width:33.33%;
+	float:left;
+	display:inline-block;
+}
+
+.bottom-row{
+	margin-bottom:50px;
+}
+/*===================================================*/
+footer{
+	clear:both;
+	height:200px;
+	background-color:lightgrey;
+}
+
+.partner{
+	font-family:"Playfair Display SC";
+}
+
+.partner h2{
+
+}
+
+.partner h4{
+
+}
+
+.partner p{
+
+}
+
+.partner a{
+
+}
+
+.partner a:hover{
+
+}
+
+.trademark{
+
+}
+
+JS STARTS HERE
+
+(function() {
+			var body = $('body');
+			$('.menu-toggle').bind('click', function() {
+				body.toggleClass('menu-open');
+				return false;
+			})
+		})();
